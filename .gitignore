@@ -141,3 +141,14 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Source archives (do not commit zipped code dumps)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+
